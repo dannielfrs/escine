@@ -42,37 +42,37 @@ Inicia sesión con tu usuario y contraseña para guardar la información de tus 
 
 Página de bienvenida
 
-![Página de bienvenida](/src/assets/images/home.png "Inicio")
+![Página de bienvenida](/images/project/home.png "Inicio")
 
 
 ## Registrarse
 
 Todos los campos del formulario son obligatorios, el formulario se valida desde el frontend incluyendo la contraseña y confirmación de contraseña. La información se almacena en una base de datos de mysql. El módulo bcryptjs se utiliza para cifrar las contraseñas
 
-![Página de registro](/src/assets/images/register.png "Registrarse")
+![Página de registro](/images/project/register.png "Registrarse")
 
 
 ## Inicio de sesión
 
 Inicia sesión con tu nombre de usuario y contraseña, si el nombre de usuario no existe o la contraseña es incorrecta el sitio te muestra un mensaje generado con el modulo react-hot-toast. La autenticación de usuarios se realiza con los modulos passport y passport-local desde el servidor. El modulo express-session almacena la sesion de usuario en la memoria del servidor
 
-![Página de inicio de sesión](/src/assets/images/login.png "Iniciar sesión")
+![Página de inicio de sesión](/images/project/login.png "Iniciar sesión")
 
 
 ## Agregar pelicula
 
 En el formulario "agregar pelicula" solo los campos "descripción" e "imagen de portada" no son obligatorios. El módulo multer permite recibir formularios con imagenes en el servidor. La información de las peliculas se almacena en una tabla de mysql
 
-![Página agregar pelicula](/src/assets/images/add.png "Agregar pelicula")
+![Página agregar pelicula](/images/project/add.png "Agregar pelicula")
 
 
 ## Listado de peliculas
 
 Se muestran las peliculas agregadas a la base de datos del usuario activo. Pasa el puntero por encima para ver la información de la pelicula, para editarla o eliminarla presionando el boton correspondiente.
 
-![Página peliculas](/src/assets/images/movies.png "Peliculas")
+![Página peliculas](/images/project/movies.png "Peliculas")
 
-![Página peliculas](/src/assets/images/movies_info.png "Peliculas")
+![Página peliculas](/images/project/movies_info.png "Peliculas")
 
 
 ## Notificaciones
@@ -84,7 +84,7 @@ En la aplicación se utiliza el módulo react-hot-toast para generar notificacio
 
 Se incluyen css media queries para generar un diseño adaptado a distintos tamaños de pantallas: escritorio, tablet o smartphone.
 
-![Página de registro](/src/assets/images/mobile_register.png "Registrarse") ![Página de inicio de sesión](/src/assets/images/mobile_login.png "Iniciar sesión") ![Página peliculas](/src/assets/images/mobile_movies.png "Peliculas")
+![Página de registro](/images/project/mobile_register.png "Registrarse") ![Página de inicio de sesión](/images/project/mobile_login.png "Iniciar sesión") ![Página peliculas](/images/project/mobile_movies.png "Peliculas")
 
 
 ## Estado global con Redux
